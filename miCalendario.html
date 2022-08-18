@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Progreso</title>
+</head>
+
+<body>
+    <h1>Esto es todo lo que he aprendido hasta ahora con HTML5</h1>
+    <h3>pequeño formulario</h3>
+    <form action="">
+        <label for="nombre">
+            <span>Cual es tu nombre</span>
+            <input type="text" name="nombre" id="nombre" aria-autocomplete="both" required>
+        </label>
+        
+        <label for="apellido">
+            <span>Cual es tu apellido?</span>
+            <input type="text" name="apellido" id="apellido" aria-autocomplete="both" required>
+        </label>
+        <label for="contraseña">
+            <span>Escribe una contraseña</span>
+            <input type="password" name="contraseña" id="contraseña" aria-autocomplete="both">
+        </label>
+        <input list="estudias" placeholder="Eres un estudiante?">
+        <datalist id="estudias">
+            <option value="Si"></option>
+            <option value="No"></option>
+        </datalist>
+        <input type="submit">
+    </form>
+    <main>
+        <br>
+        <br>
+        <h2>Imagen:</h2>
+        <section>
+            <figure>
+                <img src="./pics/Estudiante.jpg" alt="es un estudiante" width="300">
+            </figure>
+        </section>
+        <form action="">
+            <label for="hora"></label>
+            <span>cual es tu hora de estudio?</span>
+            <input type="time" name="hora" id="hora" aria-autocomplete="both" required>
+
+            <label for="fecha"></label>
+            <span>En que fecha iniciaste</span>
+            <input type="date" name="fecha" id="fecha" aria-autocomplete="both" required>
+
+        </form>
+        <h3>Lista</h3>
+        <ul>
+            <li>que te gustaria estudiar?🌎</li>
+            <ol>
+                <li>Ingenieria de sistemas🔥</li>
+                <li>Ingenieria industrial⛺</li>
+                <li>psicologia💇‍♀️</li>
+            </ol>
+        </ul>
+
+        <ul>
+            <li>Donde te gustaria estudiar?</li>
+        </ul>
+        <ul>
+            <ol>
+                <li>Colombia</li>
+                <li>Ee.uu</li>
+                <li>Ecuador</li>
+                <li>Argentina</li>
+            </ol>
+
+        </ul>
+        Elige una opcion dentro de este input list
+        <input list="lista">
+        <datalist id="lista">
+            <option value="ingenieria de sistemas🔥"></option>
+            <option value="ingenieria industrial⛺"></option>
+            <option value="psicologia💇‍♀️"></option>
+        </datalist>
+
+
+
+    </main>
+
+</body>
+
+</html>
